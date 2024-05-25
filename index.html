@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Agusti Mahendra - Personal Portfolio</title>
+
+  <link rel="shortcut icon" href="/assets/images/logo.ico" type="image/x-icon" />
+
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+ </head>
+
+ <body>
+  <main>
+   <aside class="sidebar" data-sidebar>
+    <div class="sidebar-info">
+     <figure class="avatar-box">
+      <img src="/assets/images/profile.jpg" alt="Agusti Mahendra" width="80" />
+     </figure>
+
+     <div class="info-content">
+      <h1 class="name" title="Agusti Mahendra">Agusti Mahendra</h1>
+      <p class="title">College Student</p>
+     </div>
+
+     <button class="info_more-btn" data-sidebar-btn>
+      <span>Show Contacts</span>
+      <ion-icon name="chevron-down"></ion-icon>
+     </button>
+    </div>
+
+    <div class="sidebar-info_more">
+     <div class="separator"></div>
+     <ul class="contacts-list">
+      <li class="contact-item">
+       <div class="icon-box">
+        <ion-icon name="mail-outline"></ion-icon>
+       </div>
+       <div class="contact-info">
+        <p class="contact-title">Email</p>
+
+        <a href="mailto:mahendraagusti@gmail.com" class="contact-link">mahendraagusti@gmail.com</a>
+       </div>
+      </li>
+
+      <li class="contact-item">
+       <div class="icon-box">
+        <ion-icon name="phone-portrait-outline"></ion-icon>
+       </div>
+
+       <div class="contact-info">
+        <p class="contact-title">Phone</p>
+
+        <a href="tel:+12133522795" class="contact-link">0813 3212 8905</a>
+       </div>
+      </li>
+     </ul>
+
+     <div class="separator"></div>
+
+     <ul class="social-list">
+      <li class="social-item">
+       <a href="https://www.linkedin.com/in/agustimahendra/" class="social-link" target="_blank">
+        <ion-icon name="logo-linkedin"></ion-icon>
+       </a>
+      </li>
+
+      <li class="social-item">
+       <a href="https://www.instagram.com/hendramhnd" class="social-link" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+       </a>
+      </li>
+     </ul>
+    </div>
+   </aside>
+
+   <div class="main-content">
+    <nav class="navbar">
+     <ul class="navbar-list">
+      <li class="navbar-item">
+       <button class="navbar-link active" data-nav-link>About</button>
+      </li>
+
+      <li class="navbar-item">
+       <button class="navbar-link" data-nav-link>Resume</button>
+      </li>
+
+      <li class="navbar-item">
+       <button class="navbar-link" data-nav-link>Portfolio</button>
+      </li>
+
+      <li class="navbar-item">
+       <button class="navbar-link" data-nav-link>Maps</button>
+      </li>
+     </ul>
+    </nav>
+
+    <article class="about active" data-page="about">
+     <header>
+      <h2 class="h2 article-title">About me</h2>
+     </header>
+
+     <section class="about-text">
+      <p>
+        A Physics Education student in State University of Surabaya (UNESA). Beyond my studies, I actively participate in physics laboratory assistance activities, developing my leadership, teamwork, and coummunication skills. Furthermore, I enriched my knowledge through online learning, certification programs, and strengthened my interests in Educational Technology and Website Development. My skillset transcends 
+        mere physics knowledge, encompassing proficiency in various computer software, including MS Office, UI/UX design, and programming languages.
+      </p>
+     </section>
+
+     <section class="service">
+      <h3 class="h3 service-title">What i'm doing</h3>
+
+      <ul class="service-list">
+       <li class="service-item">
+        <div class="service-icon-box">
+         <img
+          src="/assets/images/icon-design.svg
+                "
+          alt="design icon"
+          width="40"
+         />
+        </div>
+
+        <div class="service-content-box">
+         <h4 class="h4 service-item-title">UI/UX design</h4>
+        </div>
+       </li>
+
+       <li class="service-item">
+        <div class="service-icon-box">
+         <img src="/assets/images/icon-dev.svg" alt="Web development icon" width="40" />
+        </div>
+
+        <div class="service-content-box">
+         <h4 class="h4 service-item-title">Web development</h4>
+        </div>
+       </li>
+
+       <li class="service-item">
+        <div class="service-icon-box">
+         <img src="/assets/images/icon-app.svg" alt="mobile app icon" width="40" />
+        </div>
+
+        <div class="service-content-box">
+         <h4 class="h4 service-item-title">Content Writer</h4>
+        </div>
+       </li>
+
+       <li class="service-item">
+        <div class="service-icon-box">
+         <img src="/assets/images/icon-photo.svg" alt="camera icon" width="40" />
+        </div>
+
+        <div class="service-content-box">
+         <h4 class="h4 service-item-title">Blogger</h4>
+        </div>
+       </li>
+      </ul>
+     </section>
+
+
+     <div class="modal-container" data-modal-container>
+      <div class="overlay" data-overlay></div>
+      <section class="testimonials-modal">
+       <button class="modal-close-btn" data-modal-close-btn>
+        <ion-icon name="close-outline"></ion-icon>
+       </button>
+      </section>
+     </div>
+
+     <section class="clients">
+      <h3 class="h3 clients-title">My Skills</h3>
+
+      <ul class="clients-list has-scrollbar">
+       <li class="clients-item">
+        <a href="#">
+         <img src="/assets/images/html.png" alt="client logo" />
+        </a>
+       </li>
+
+       <li class="clients-item">
+        <a href="#">
+         <img src="/assets/images/css.png" alt="client logo" />
+        </a>
+       </li>
+
+       <li class="clients-item">
+        <a href="#">
+         <img src="/assets/images/js.png" alt="client logo" />
+        </a>
+       </li>
+
+       <li class="clients-item">
+        <a href="#">
+         <img src="/assets/images/python.png" alt="client logo" />
+        </a>
+       </li>
+
+       <li class="clients-item">
+        <a href="#">
+         <img src="/assets/images/mysql.png" alt="client logo" />
+        </a>
+       </li>
+
+       <li class="clients-item">
+        <a href="#">
+         <img src="/assets/images/php.png" alt="client logo" />
+        </a>
+       </li>
+      </ul>
+     </section>
+    </article>
+
+    <article class="resume" data-page="resume">
+     <header>
+      <h2 class="h2 article-title">Resume</h2>
+     </header>
+
+     <section class="timeline">
+      <div class="title-wrapper">
+       <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+       </div>
+
+       <h3 class="h3">Education</h3>
+      </div>
+
+      <ol class="timeline-list">
+       <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">State University of Surabaya</h4>
+
+        <span>2022 — Present</span>
+
+       </li>
+
+       <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">SMAS Dharma Wanita 1 Gedangan</h4>
+
+        <span>2019 — 2022</span>
+
+       </li>
+      </ol>
+     </section>
+
+     <section class="timeline">
+      <div class="title-wrapper">
+       <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+       </div>
+
+       <h3 class="h3">Experience</h3>
+      </div>
+
+      <ol class="timeline-list">
+       <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Laboratory Assistant Basic Physics II</h4>
+
+        <span>Feb 2024 — Present</span>
+
+        <p class="timeline-text">
+            Assisted the lecturer in delivering instructions and systematics of writing practicum reports, distributing practicum schedules, preparing practicum media, and correcting student practicum reports.
+        </p>
+
+        <p class="timeline-text">
+            Mentored 25 students in practicum activities of Basic Physics II.
+        </p>
+       </li>
+
+       <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Physics Competition 2024(PHOTON 2024)</h4>
+
+        <span>May 2024 — Present</span>
+
+        <p class="timeline-text">
+            Made physics olympiad questions for junior high school students in the preliminary, semifinal, final, and grand final rounds.
+        </p>
+       </li>
+
+       <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Laboratory Assistant Basic Physics I and General Physics</h4>
+
+        <span>Aug 2023 — Dec 2023</span>
+
+        <p class="timeline-text">
+            Assisted the lecturers in distributing practicum schedules, preparing practicum media, and correcting student practicum reports.
+        </p>
+
+        <p class="timeline-text">
+            Mentored more than 100 students in practicum activities of Basic Physics I and General Physics.
+        </p>
+       </li>
+
+       <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Physics Competition 2023(PHOTON 2023)</h4>
+
+        <span>May 2023 — Oct 2023</span>
+
+        <p class="timeline-text">
+            Made physics olympiade questions for junior high school students in the preliminary, semifinal, final, and grand final rounds.
+        </p>
+
+        <p class="timeline-text">
+            Monitored participants in the semifinals and grand finals rounds.
+        </p>
+       </li>
+
+       <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">KIP Kuliah Merdeka 2023 Kemendikbudristek Volunteers</h4>
+
+        <span>Jan 2023 — Jun 2023</span>
+
+        <p class="timeline-text">
+            Conducted socialization of KIP Kuliah 2023 Kemendikbudristek program to 12th grade high school students in Sidoarjo Regency.
+        </p>
+
+        <p class="timeline-text">
+            Provided guidance to 12th grade students to register for the KIP Kuliah 2023 program and State University Entrance Selection.
+        </p>
+       </li>
+      </ol>
+     </section>
+
+     <section class="timeline">
+        <div class="title-wrapper">
+         <div class="icon-box">
+          <ion-icon name="book-outline"></ion-icon>
+         </div>
+  
+         <h3 class="h3">Achievements</h3>
+        </div>
+  
+        <ol class="timeline-list">
+         <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">Best Proposal Pekan Ilmiah Mahasiswa Unesa (PIMNESA) 2023</h4>
+  
+          <span>2023</span>
+  
+          <p class="timeline-text">
+            Collaborate as a team for developing scientific proposals in PKM Eksata Research (PKM-RE).
+          </p>
+
+          <p class="timeline-text">
+            Coordinated the team in the preparation of scientific proposals.
+          </p>
+         </li>
+  
+         <li class="timeline-item">
+          <h4 class="h4 timeline-item-title">First Runner-Up in Airlangga Web-Post Competition (AWPC) 2022</h4>
+  
+          <span>2022</span>
+  
+          <p class="timeline-text">
+            Writed blog content using Search Engine Optimization (SEO) and designed image illustrations to support the artistry of blog conten.
+          </p>
+         </li>
+        </ol>
+       </section>
+    </article>
+
+    <article class="portfolio" data-page="portfolio">
+     <header>
+      <h2 class="h2 article-title">Portfolio</h2>
+     </header>
+
+     <section class="projects">
+      <ul class="filter-list">
+       <li class="filter-item">
+        <button class="active" data-filter-btn>All</button>
+       </li>
+
+       <li class="filter-item">
+        <button data-filter-btn>Physics Education</button>
+       </li>
+
+       <li class="filter-item">
+        <button data-filter-btn>Applications</button>
+       </li>
+
+       <li class="filter-item">
+        <button data-filter-btn>Web development</button>
+       </li>
+      </ul>
+
+      <div class="filter-select-box">
+       <button class="filter-select" data-select>
+        <div class="select-value" data-selecct-value>Select category</div>
+
+        <div class="select-icon">
+         <ion-icon name="chevron-down"></ion-icon>
+        </div>
+       </button>
+
+       <ul class="select-list">
+        <li class="select-item">
+         <button data-select-item>All</button>
+        </li>
+
+        <li class="select-item">
+         <button data-select-item>Physics Education</button>
+        </li>
+
+        <li class="select-item">
+         <button data-select-item>Applications</button>
+        </li>
+
+        <li class="select-item">
+         <button data-select-item>Web Development</button>
+        </li>
+       </ul>
+      </div>
+
+      <ul class="project-list">
+       <li class="project-item active" data-filter-item data-category="applications">
+        <a href="#">
+         <figure class="project-img">
+          <div class="project-item-icon-box">
+           <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="/assets/images/project-1.jpg" alt="Buku Pembelajaran Listrik" loading="lazy" />
+         </figure>
+
+         <h3 class="project-title">Buku Pembelajaran Listrik</h3>
+
+         <p class="project-category">Applications</p>
+        </a>
+       </li>
+
+       <li class="project-item active" data-filter-item data-category="physics education">
+        <a href="#">
+         <figure class="project-img">
+          <div class="project-item-icon-box">
+           <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="/assets/images/project-2.jpg" alt="orizon" loading="lazy" />
+         </figure>
+
+         <h3 class="project-title">Bahan Ajar Fisika Optik Geometri</h3>
+
+         <p class="project-category">Physics Education</p>
+        </a>
+       </li>
+
+       <li class="project-item active" data-filter-item data-category="physics education">
+        <a href="#">
+         <figure class="project-img">
+          <div class="project-item-icon-box">
+           <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="/assets/images/project-3.jpg" alt="orizon" loading="lazy" />
+         </figure>
+
+         <h3 class="project-title">Modul Ajar Fisika Optik Geometri</h3>
+
+         <p class="project-category">Physics Education</p>
+        </a>
+       </li>
+
+       <li class="project-item active" data-filter-item data-category="web development">
+        <a href="#">
+         <figure class="project-img">
+          <div class="project-item-icon-box">
+           <ion-icon name="eye-outline"></ion-icon>
+          </div>
+
+          <img src="/assets/images/project-4.jpg" alt="orizon" loading="lazy" />
+         </figure>
+
+         <h3 class="project-title">Klinik Fisika Optik</h3>
+
+         <p class="project-category">Web Development</p>
+        </a>
+       </li>
+      </ul>
+     </section>
+    </article>
+
+    <article class="maps" data-page="maps">
+     <header>
+      <h2 class="h2 article-title">Maps</h2>
+     </header>
+
+     <section class="mapbox" data-mapbox>
+      <figure>
+       <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.6678471281181!2d112.72557322445581!3d-7.315336457800602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb7a67b076f1%3A0x3f70c58dbaa268ac!2sGedung%20Jurusan%20Fisika%20Unesa!5e0!3m2!1sid!2sid!4v1716606984794!5m2!1sid!2sid"
+        width="400"
+        height="300"
+        loading="lazy"
+       ></iframe>
+      </figure>
+     </section>
+    </article>
+   </div>
+  </main>
+
+  <script src="/assets/js/script.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+ </body>
+</html>
