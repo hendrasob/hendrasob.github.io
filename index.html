@@ -112,7 +112,7 @@
      </section>
 
      <section class="service">
-      <h3 class="h3 service-title">What i'm doing</h3>
+      <h3 class="h3 service-title">What's my interest</h3>
 
       <ul class="service-list">
        <li class="service-item">
@@ -232,11 +232,11 @@
       <ol class="timeline-list">
        <li class="timeline-item">
         <h4 class="h4 timeline-item-title">State University of Surabaya</h4>
-
         <span>2022 — Present</span>
-
+        <p class="timeline-text">
+            Awarded the incentive of Student Creativity Program (PKM) 2024 in the field of PKM-GFT by Kemendikbudristek
+        </p>
        </li>
-       
       </ol>
      </section>
 
@@ -361,142 +361,122 @@
      </header>
 
      <section class="projects">
-      <ul class="filter-list">
-       <li class="filter-item">
-        <button class="active" data-filter-btn>All</button>
-       </li>
-
-       <li class="filter-item">
-        <button data-filter-btn>Physics Education</button>
-       </li>
-
-       <li class="filter-item">
-        <button data-filter-btn>Applications</button>
-       </li>
-
-       <li class="filter-item">
-        <button data-filter-btn>Web development</button>
-       </li>
-
-       <li class="filter-item">
-        <button data-filter-btn>UI/UX Design</button>
-       </li>
-      </ul>
-
-      <div class="filter-select-box">
-       <button class="filter-select" data-select>
-        <div class="select-value" data-selecct-value>Select category</div>
-
-        <div class="select-icon">
-         <ion-icon name="chevron-down"></ion-icon>
+        <ul class="filter-list">
+          <li class="filter-item">
+            <button class="active" data-filter-btn>All</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>Physics Education</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>Applications</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>Web development</button>
+          </li>
+          <li class="filter-item">
+            <button data-filter-btn>UI/UX Design</button>
+          </li>
+        </ul>
+      
+        <div class="filter-select-box">
+          <button class="filter-select" data-select>
+            <div class="select-value" data-selecct-value>Select category</div>
+            <div class="select-icon">
+              <ion-icon name="chevron-down"></ion-icon>
+            </div>
+          </button>
+          <ul class="select-list">
+            <li class="select-item">
+              <button data-select-item>All</button>
+            </li>
+            <li class="select-item">
+              <button data-select-item>Physics Education</button>
+            </li>
+            <li class="select-item">
+              <button data-select-item>Applications</button>
+            </li>
+            <li class="select-item">
+              <button data-select-item>Web Development</button>
+            </li>
+            <li class="select-item">
+              <button data-select-item>UI/UX Design</button>
+            </li>
+          </ul>
         </div>
-       </button>
-
-       <ul class="select-list">
-        <li class="select-item">
-         <button data-select-item>All</button>
-        </li>
-
-        <li class="select-item">
-         <button data-select-item>Physics Education</button>
-        </li>
-
-        <li class="select-item">
-         <button data-select-item>Applications</button>
-        </li>
-
-        <li class="select-item">
-         <button data-select-item>Web Development</button>
-        </li>
-
-        <li class="select-item">
-            <button data-select-item>UI/UX Design</button>
-           </li>
-       </ul>
-      </div>
-
-      <ul class="project-list">
-       <li class="project-item active" data-filter-item data-category="applications">
-        <a href="#">
-         <figure class="project-img">
-          <div class="project-item-icon-box">
-           <ion-icon name="eye-outline"></ion-icon>
+      
+        <ul class="project-list">
+          <li class="project-item active" data-filter-item data-category="applications" data-description="This application is a mini project developed to fulfill the digital literacy course. This project is developed with HTML, CSS, and JavaScript which is then converted into an application.">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/assets/images/project-1.jpg" alt="Buku Pembelajaran Listrik" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Buku Pembelajaran Listrik</h3>
+              <p class="project-category">Applications</p>
+            </a>
+          </li>
+          <li class="project-item active" data-filter-item data-category="physics education" data-description="This product is a learning material that contains materials related to geometric optics and is equipped with various individual / group activities, simple experiments, and practice questions.">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/assets/images/project-2.jpg" alt="Bahan Ajar Fisika Optik Geometri" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Bahan Ajar Fisika Optik Geometri</h3>
+              <p class="project-category">Physics Education</p>
+            </a>
+          </li>
+          <li class="project-item active" data-filter-item data-category="physics education" data-description="This product was developed for teachers in planning classroom learning on geometric optics. In this learning module, there are objectives, steps, and learning media, as well as assessments needed in one unit/topic based on the Flow of Learning Objectives (ATP).">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/assets/images/project-3.jpg" alt="Modul Ajar Fisika Optik Geometri" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Modul Ajar Fisika Optik Geometri</h3>
+              <p class="project-category">Physics Education</p>
+            </a>
+          </li>
+          <li class="project-item active" data-filter-item data-category="web development" data-description="Klinik Fisika is an interactive website developed with the CodeIgniter4 framework.">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/assets/images/project-4.jpg" alt="Klinik Fisika Optik" loading="lazy" />
+              </figure>
+              <h3 class="project-title">Klinik Fisika Optik</h3>
+              <p class="project-category">Web Development</p>
+            </a>
+          </li>
+          <li class="project-item active" data-filter-item data-category="ui/ux design" data-description="WE-ELPHY is an application design created with Figma software.">
+            <a href="#">
+              <figure class="project-img">
+                <div class="project-item-icon-box">
+                  <ion-icon name="eye-outline"></ion-icon>
+                </div>
+                <img src="/assets/images/project-5.jpg" alt="WE-ELPHY" loading="lazy" />
+              </figure>
+              <h3 class="project-title">WE-ELPHY</h3>
+              <p class="project-category">UI/UX Design</p>
+            </a>
+          </li>
+        </ul>
+      
+        <!-- Pop-up HTML -->
+        <div class="popup" id="popup">
+          <div class="popup-content">
+            <span class="popup-close" id="popupClose">&times;</span>
+            <h3 class="popup-title">Project Details</h3>
+            <p class="popup-description" id="popupDescription"></p>
           </div>
-
-          <img src="/assets/images/project-1.jpg" alt="Buku Pembelajaran Listrik" loading="lazy" />
-         </figure>
-
-         <h3 class="project-title">Buku Pembelajaran Listrik</h3>
-
-         <p class="project-category">Applications</p>
-        </a>
-       </li>
-
-       <li class="project-item active" data-filter-item data-category="physics education">
-        <a href="#">
-         <figure class="project-img">
-          <div class="project-item-icon-box">
-           <ion-icon name="eye-outline"></ion-icon>
-          </div>
-
-          <img src="/assets/images/project-2.jpg" alt="orizon" loading="lazy" />
-         </figure>
-
-         <h3 class="project-title">Bahan Ajar Fisika Optik Geometri</h3>
-
-         <p class="project-category">Physics Education</p>
-        </a>
-       </li>
-
-       <li class="project-item active" data-filter-item data-category="physics education">
-        <a href="#">
-         <figure class="project-img">
-          <div class="project-item-icon-box">
-           <ion-icon name="eye-outline"></ion-icon>
-          </div>
-
-          <img src="/assets/images/project-3.jpg" alt="orizon" loading="lazy" />
-         </figure>
-
-         <h3 class="project-title">Modul Ajar Fisika Optik Geometri</h3>
-
-         <p class="project-category">Physics Education</p>
-        </a>
-       </li>
-
-       <li class="project-item active" data-filter-item data-category="web development">
-        <a href="#">
-         <figure class="project-img">
-          <div class="project-item-icon-box">
-           <ion-icon name="eye-outline"></ion-icon>
-          </div>
-
-          <img src="/assets/images/project-4.jpg" alt="orizon" loading="lazy" />
-         </figure>
-
-         <h3 class="project-title">Klinik Fisika Optik</h3>
-
-         <p class="project-category">Web Development</p>
-        </a>
-       </li>
-
-       <li class="project-item active" data-filter-item data-category="ui/ux design">
-        <a href="#">
-         <figure class="project-img">
-          <div class="project-item-icon-box">
-           <ion-icon name="eye-outline"></ion-icon>
-          </div>
-
-          <img src="/assets/images/project-5.jpg" alt="orizon" loading="lazy" />
-         </figure>
-
-         <h3 class="project-title">WE-ELPHY</h3>
-
-         <p class="project-category">UI/UX Design</p>
-        </a>
-       </li>
-      </ul>
-     </section>
+        </div>
+      </section>
     </article>
 
     <article class="maps" data-page="maps">

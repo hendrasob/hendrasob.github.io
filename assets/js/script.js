@@ -2,6 +2,40 @@
 
 
 
+document.addEventListener('DOMContentLoaded', function() {
+  const projectItems = document.querySelectorAll('.project-item');
+  const popup = document.getElementById('popup');
+  const popupTitle = popup.querySelector('.popup-title');
+  const popupDescription = document.getElementById('popupDescription');
+  const popupClose = document.getElementById('popupClose');
+  const body = document.body;
+
+  projectItems.forEach(item => {
+    item.addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent the default action (e.g., following the link)
+      const title = item.querySelector('.project-title').innerText;
+      const description = item.getAttribute('data-description');
+      popupTitle.innerText = title;
+      popupDescription.innerText = description;
+      popup.style.display = 'flex';
+      body.classList.add('no-scroll'); // Prevent background scroll
+    });
+  });
+
+  popupClose.addEventListener('click', function() {
+    popup.style.display = 'none';
+    body.classList.remove('no-scroll'); // Allow background scroll
+  });
+
+  window.addEventListener('click', function(event) {
+    if (event.target == popup) {
+      popup.style.display = 'none';
+      body.classList.remove('no-scroll'); // Allow background scroll
+    }
+  });
+});
+
+
 // element toggle function
 const elementToggleFunc = function (elem) { elem.classList.toggle("active"); }
 
