@@ -43,7 +43,7 @@
        <div class="contact-info">
         <p class="contact-title">Email</p>
 
-        <a href="mailto:mahendraagusti@gmail.com" class="contact-link">mahendraagusti@gmail.com</a>
+        <a href="mailto:mahendraagusti@gmail.com" class="contact-link" target="_blank">mahendraagusti@gmail.com</a>
        </div>
       </li>
 
@@ -55,7 +55,7 @@
        <div class="contact-info">
         <p class="contact-title">Phone</p>
 
-        <a href="tel:+12133522795" class="contact-link">0813 3212 8905</a>
+        <a href="https://wa.me/6281332128905" class="contact-link" target="_blank">0813 3212 8905</a>
        </div>
       </li>
      </ul>
@@ -480,24 +480,42 @@
     </article>
 
     <article class="maps" data-page="maps">
-     <header>
-      <h2 class="h2 article-title">Maps</h2>
-     </header>
-
-     <section class="mapbox" data-mapbox>
-      <figure>
-       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.6678471281181!2d112.72557322445581!3d-7.315336457800602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb7a67b076f1%3A0x3f70c58dbaa268ac!2sGedung%20Jurusan%20Fisika%20Unesa!5e0!3m2!1sid!2sid!4v1716606984794!5m2!1sid!2sid"
-        width="400"
-        height="300"
-        loading="lazy"
-       ></iframe>
-      </figure>
-     </section>
+      <header>
+        <h2 class="h2 article-title">Maps</h2>
+      </header>
+    
+      <section class="mapbox" data-mapbox>
+        <figure>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d494.6678471281181!2d112.72557322445581!3d-7.315336457800602!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7fb7a67b076f1%3A0x3f70c58dbaa268ac!2sGedung%20Jurusan%20Fisika%20Unesa!5e0!3m2!1sid!2sid!4v1716606984794!5m2!1sid!2sid"
+            width="400"
+            height="300"
+            loading="lazy"
+          ></iframe>
+        </figure>
+      </section>
+    
+      <section class="contact-form">
+        <h2>Contact Us</h2>
+        <!-- Formspree Form -->
+        <form action="https://formspree.io/f/mzbnnjvv" method="POST">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+    
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+    
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+    
+          <button type="submit">Send</button>
+        </form>
+      </section>
     </article>
+
    </div>
   </main>
-
+  
   <script src="/assets/js/script.js"></script>
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

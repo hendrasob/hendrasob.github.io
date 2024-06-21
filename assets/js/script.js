@@ -1,5 +1,11 @@
 'use strict';
 
+// Refresh Page
+window.addEventListener('pageshow', function(event) {
+  if (event.persisted) {
+      window.location.reload();
+  }
+});
 
 
 document.addEventListener('DOMContentLoaded', function() {
