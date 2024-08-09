@@ -1214,6 +1214,11 @@
   .clients-item {
    min-width: calc(33.33% - 10px);
   }
+
+     .navbar-link {
+    --fs-8: 20px;
+   }
+
  
   /**
     * #PORTFOLIO
